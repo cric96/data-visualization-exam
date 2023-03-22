@@ -56,15 +56,16 @@ using them as index of the json object allows to access the data in constant tim
 The web page should show the average temperature increasing over the years, and the countries that are the most affected by the climate change.
 As a first step, I tried to create a simple mock for the resulting web page, to have a clear idea of what I wanted to achieve.
 Particularly, the mock for this site was the following:
-
-![Image](https://user-images.githubusercontent.com/23448811/226698615-5c0c61ef-0361-4583-9dd5-87291abf61d8.png)
+<p align=center>
+<img src="https://user-images.githubusercontent.com/23448811/226698615-5c0c61ef-0361-4583-9dd5-87291abf61d8.png"  width="60%">
+</p>
 
 I thought to divide the page in three main sections:
-- The first section should show the overall trend of global temperatures, and the countries that are the most affected by the climate change.
-- The second part shows the top 20 worst delta changes in the average temperature in the selected year
-- The third part shows the average temperature increasing over the years in the selected country
+- The first section (chart on the left) should show the overall trend of global temperatures, and the countries that are the most affected by the climate change.
+- The second part (chart on the right) shows the top 20 worst delta changes in the average temperature in the selected year
+- The third part (chart on the bottom) shows the average temperature increasing over the years in the selected country
 
-The website is designed to be interactive, allowing users to select a specific year and country to view corresponding climate data. Users can also start a simulation to observe how temperature has changed over time.
+The website is designed to be interactive, allowing users to select a specific year and country to view corresponding climate data. Users can also start a simulation to observe how temperature has changed over time. This is done with the top section that shows the current year and a play button to start the time progression.
 
 The data collected is spatio-temporal in nature, as it includes both the temporal aspect (year) and spatial aspect (country). The spatial aspect is represented visually through a map, with each country's color determined by its average temperature. To better convey the severity of temperature changes and its relation to climate change risk, an orange-red colormap is used.
 
