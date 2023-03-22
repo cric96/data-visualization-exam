@@ -55,7 +55,7 @@ The web page should show the average temperature increasing over the years, and 
 As a first step, I tried to create a simple mock for the resulting web page, to have a clear idea of what I wanted to achieve.
 Particularly, the mock for this site was the following:
 <p align=center>
-<img src="https://user-images.githubusercontent.com/23448811/226698615-5c0c61ef-0361-4583-9dd5-87291abf61d8.png"  width="60%">
+<img src="https://user-images.githubusercontent.com/23448811/226698615-5c0c61ef-0361-4583-9dd5-87291abf61d8.png"  width="50%">
 </p>
 
 I divide the page in three main sections:
