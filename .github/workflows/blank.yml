@@ -8,7 +8,7 @@ on:
     paths:
       - 'docs/**.md'
       - 'docs/images/**'
-
+  workflow_dispatch:
 jobs:
   converttopdf:
     name: Build PDF
