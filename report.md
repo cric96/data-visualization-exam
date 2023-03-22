@@ -14,7 +14,10 @@ The web page was implemented using chart.js and Vue.js.
 The resulting visualization can be accessed through the following link: ([https://cric96.github.io/climate-change-analysis/](https://cric96.github.io/climate-change-analysis/))
 
 ## Data Analysis and structure
-As a first step, I conducted a thorough analysis of the dataset to gain an understanding of its structure and to identify the most interesting features for visualization purposes. The results of this analysis can be found in the data_analysis.ipynb notebook, which is accessible at the following GitHub repository: https://github.com/cric96/data-visualization-exam.
+As a first step, I conducted a thorough analysis of the dataset to gain an understanding of its structure and to identify the most interesting features for visualization purposes. 
+The results of this analysis can be found in the `data_analysis.ipynb` notebook, 
+which is accessible at the following GitHub repository: 
+[https://github.com/cric96/data-visualization-exam](https://github.com/cric96/data-visualization-exam).
 
 The dataset chosen for this project comprises multiple files, 
 including `GlobalTemperatures.csv`, `GlobalLandTemperaturesByState.csv`, `GlobalLandTemperaturesByCountry.csv`, 
